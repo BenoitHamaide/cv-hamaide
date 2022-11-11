@@ -1,0 +1,41 @@
+body{
+    background-color: #6FC477;
+}
+.container{
+    display: flex;
+    width: 130vh;
+    margin: 10rem auto;
+
+}
+#profil{
+    background-color: white;
+    width: 40%;
+    
+    
+}
+.droite{
+    background-color: white;
+    width: 60%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#profil img{
+    width: 100%;
+    
+}
+#profil h1{
+    margin-bottom: 2%;
+    font-size: 2em;
+    text-align: center;
+
+}
+.metier{
+    margin-top: 1%;
+    font-size: 1em;
+    color: #98CE90;
+    text-align: center;
+}
+.container_droite{
+    display: flex;
+    
+}
