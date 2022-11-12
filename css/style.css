@@ -1,3 +1,6 @@
+*{
+    box-sizing: content-box;
+}
 body{
     background-color: #6FC477;
 }
@@ -19,6 +22,7 @@ body{
     width: 60%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    position: relative;
    
 }
 #profil img{
@@ -40,7 +44,10 @@ body{
 .container_droite{
     display: flex;
     background-color: white;
-    
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 85%;
 }
 .apropos{
     position: relative;
